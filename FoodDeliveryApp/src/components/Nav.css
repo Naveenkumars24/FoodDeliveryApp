@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+#navcontainer {
+  width: 100%;
+  height: 90px;
+  background-color: black;
+}
+
+#heropage {
+  width: 100%;
+  height: 685px;
+  overflow-x: hidden;
+  background-image: url(https://t4.ftcdn.net/jpg/02/84/46/89/360_F_284468936_x9z7JcG7abktWKd750bP2CcjCqeZyHtm.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#heropage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#herocontent {
+  color: white;
+  font-size: 6.5rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 900px;
+  position: relative;
+  z-index: 1;
+  padding-top: 30px;
+}
+
+.dropdown-search {
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+}
+
+#locationselect {
+  width: 800px;
+  height: 80px;
+  margin-bottom: 50px;
+  font-size: 2rem;
+
+  text-align: center;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: black;
+  z-index: 1;
+}
+
+button {
+  padding: 10px 20px;
+  width: 300px;
+  height: 80px;
+  font-size: 1.5rem;
+  background-color: #603A10;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-bottom: 50px;
+  font-weight: 900;
+  z-index: 1;
+}
+
+button:hover {
+  background-color: transparent;
+  color: #603A10;
+  background-color: #e6bc8d;
+}

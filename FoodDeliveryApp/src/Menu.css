@@ -1,0 +1,239 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#backgroundmenu{
+    width: 100%;
+    height: 300px;
+    /* background-repeat: no-repeat; */
+    /* overflow-x: hidden;
+    overflow-y: hidden; */
+
+   }
+#backgroundmenu img{
+    width: 100%;
+    height: 300px;
+    /* border-left: 6px solid white; */
+    /* object-fit: cover; */
+    padding: 0;
+    
+    
+   
+}
+#menulist1{
+    width: 100%;
+    height: 300px;
+     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+
+    
+
+}
+#menulist1 img{
+    width: 144px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+#menulist1 img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+#categoryname{
+    width: 100%;
+    height: 90px;
+    color: rgb(70, 67, 67);
+    display: flex;
+    align-items: center;
+    padding-left: 45px;
+    font-size: 1.7rem;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 2px solid grey;
+   background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  
+    
+}
+#categorybody{
+    width: 100%;
+    display: flex;
+    /* background-color: black; */
+
+}
+#cbodyleft{
+   width: 30%;
+   /* background-color: aqua; */
+   height: 400px;
+   position:sticky;
+   top: 90px;
+  
+}
+.cleftnames{
+    width: 100%;
+    height: 80px;
+   padding-left: 45px;
+   display:flex ;
+   align-items: center;
+    
+}
+.cleftnames a{
+    text-decoration-color: white;
+    font-size: 12px;
+    color: rgb(95, 93, 93);
+   text-underline-offset: 0.3em;
+   
+}
+   
+.cleftnames :hover{
+   /* text-decoration-color: #FF8E01;
+   font-size: 30px; */
+   text-shadow: 0px 4px 3px rgba(0,0,0,0.14); 
+   text-decoration: none;
+   color: #f8863b;
+   /* color: rgb(37, 36, 36); */
+
+   transition: all 0.3s ease-out;
+
+}
+#cbodyright{
+ width: 70%;
+  /* background-color: blue;
+  height: 1000px; */
+  /* z-index: -1; */
+}
+.crightfoodcontainer{
+
+    height: 370px;
+    /* background-color:red ; */
+    display: flex;
+    /* gap: 10px ; */
+    align-items: center;
+    justify-content: space-around;
+    }
+.crightfood{
+    width: 100%;
+    height: 370px;
+    /* background-color: yellow; */
+    margin: 7px;
+    box-shadow : 0 1px 3px rgba(0, 0, 0, 0.1);
+   
+    
+
+    /* text-align: center; */
+}
+.crightfood img{
+    width: 100% ;
+    height: 200px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+.crightfoodimg{
+    width: 100% ;
+    height: 200px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+  overflow: hidden;
+}
+.crightfood img:hover  {
+    transform: scale(1.1);
+  }
+
+.crightfood h2{
+    padding-top: 10px;
+    font-family: ProximaNova-Regular, Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    color: #4a4a4a;
+  
+}
+.crightfood h3{
+    padding-top: 7px;
+    font-family: ProximaNova-Regular, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    color: #383636;
+    word-spacing: 10px;
+  
+}
+.crightfood h4{
+    padding-top: 10px;
+    font-family: ProximaNova-Regular, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    color: #4a4a4a;
+   /* background-color: aqua; */
+   display: inline;
+  
+}
+.icon-with-text {
+    display: flex;
+    align-items: center;
+    height: 35px;
+  }
+  
+  .icon-with-text img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+  
+  .icon-with-text h5 {
+   font-family: ProximaNova-Regular, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    color: #8b8787;
+  
+  }
+  .addfoodbtn{
+    width: 145px;
+    height: 45px;
+    margin-left: 55px;
+    background-color: #FF8E01;
+    color: white;
+    font-size: large;
+    font-weight: 700;
+  
+
+  }
+  
+  .increment-btn,
+  .decrement-btn {
+    width: 30px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #FF8E01;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 0 20px;
+    
+  }
+  
+  .increment-btn:hover,
+  .decrement-btn:hover {
+    background-color: #e92e0d;
+  }
+  .increment-btn:hover {
+    background-color: #356121;
+  }
+  .addcontrols{
+    display: inline;
+    margin-left: 55px;
+   
+}
+.categorynames{
+    width: 100%;
+    height: 90px;
+    color: rgb(49, 46, 46);
+    display: flex;
+    align-items: center;
+    padding-left: 4px;
+    font-size: 1.7rem;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+ }
+  
